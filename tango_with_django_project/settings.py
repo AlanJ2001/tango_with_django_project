@@ -132,5 +132,8 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 STATIC_URL = '/static/'
 
+# cookies
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 
 
